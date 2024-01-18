@@ -33,6 +33,21 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 
 ```{r simple-calculations}
 # Item 1
+# Simple Calculations
+
+# 1. Adds the values 2 and 5.
+result <- 2 + 5
+
+# 2. Creates an R object called int_vect that contains the values 1 through 9. Can you do this without typing each number?
+int_vect <- 1:9
+
+# 3. Creates an R object called char_vect that contains the letters "A" (the first letter of the alphabet) through "Q" (the 17th letter of the alphabet). Can you do this without typing each letter?
+char_vect <- LETTERS[1:17]
+
+# 4. Using code, determine how many of the items in char_vect occur after the letter "D"
+items_after_D <- sum(char_vect > "D")
+
+
 
 ```
 
